@@ -7,6 +7,8 @@ It is a small website containing a homepage and some sub-pages using HTML elemen
 - Images (\<img\>)
 - Ordered and unordered lists (\<ol\> \<ul\> \<li\>)
 - Container elements (\<div\>)
+
+\
 \
 Styling is done using an external stylesheet containing different types of selectors like:
 - Universal Selector

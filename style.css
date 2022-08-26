@@ -52,6 +52,12 @@ h2 {
     padding: 5px;
 }
 
+.noBorder {
+    border: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
 ul,
 ol,
 p {
@@ -88,7 +94,8 @@ li {
     text-decoration: none;
 }
 
-.menu a:hover {
+.menu a:hover,
+.menu--active a {
     background-color: rgba(176, 127, 27) ;
     color: #fff;
 }
@@ -96,4 +103,8 @@ li {
 .container {
     display: table;
     margin: 0 auto;
+}
+
+.container-last {
+    margin-bottom: 20px;
 }
